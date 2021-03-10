@@ -1,0 +1,38 @@
+.content{
+    display:block;
+    margin: 200px auto;
+    width: 50%;
+    background: #d792f7;
+    border-radius: 20px 0 20px 0;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0;
+    color:white;
+    font-size:36px;
+    text-transform: uppercase;
+}
+.button{
+    width: 25%;
+    border: 2px solid #d792f7;
+    border-radius: 20px 0 0 0;
+    color: #d792f7;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    background-color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.button:hover{
+    color: white;
+    background-color: rgba(215,146,247, 0.2);
+    border: 2px solid white;
+}
+.button:focus{
+    border: 2px solid white;
+    outline:none;
+    color: white;
+    background-color: rgba(215,146,247, 0.2);;
+}
